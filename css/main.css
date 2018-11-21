@@ -19,7 +19,7 @@ html {
 }
 
 .cards {
-
+list-style-type: none;
 }
 
 .card {
@@ -33,7 +33,7 @@ html {
 }
 
 .card-body {
-
+  display: inline-block;
 }
 
 @media only screen and (min-width: 20em) {
