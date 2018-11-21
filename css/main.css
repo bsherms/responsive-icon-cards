@@ -12,7 +12,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-size: 1.5rem;
-  margin: .75em;
 }
 
 *, *::before, *::after {
@@ -25,14 +24,16 @@ html {
 }
 
 .card {
-
+  margin: 0;
 }
 
-.card-img {
+.card-img img {
   display: block;
   width: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: .75em;
+  margin-top: .75em;
 }
 
 .card-body {
@@ -40,11 +41,14 @@ html {
 }
 
 .card-body h2 {
+  margin-top: 0;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
 .card-body p {
   margin-top: 0;
+  margin-bottom: .75em;
 }
 
 @media only screen and (min-width: 20em) {
@@ -114,6 +118,7 @@ html {
   .card-img {
     display: block;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
