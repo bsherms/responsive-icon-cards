@@ -33,8 +33,20 @@ html {
   align-items: center;
 }
 
+.card-img img {
+
+}
+
 .card-body {
   display: inline-block;
+}
+
+.card-body h2 {
+
+}
+
+.card-body p {
+
 }
 
 @media only screen and (min-width: 20em) {
